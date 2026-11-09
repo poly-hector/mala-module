@@ -1,9 +1,16 @@
-# Mala for Hector — public beta
+# Mala v2 Public Beta for Hector
+
+**[Download Mala v2 (v0.2.0-beta.1)](https://github.com/poly-hector/mala-module/releases/tag/v0.2.0-beta.1)**
+
+This experimental beta targets Hector firmware 407. The release page includes
+the USB installer, rollback kit, and installation instructions.
 
 Mala is a community granular texture processor for **Hector running firmware 407**,
 based on the open-source Beads algorithms by Emilie Gillet / Mutable Instruments.
 It includes four recording qualities, Freeze and Seed, CV modulation, wavetable
 synthesis, frozen-buffer preset storage, MIDI mapping, and a touchscreen editor.
+
+## Earlier release — Mala v0.1.0-beta.6
 
 **0.1.0-beta.6** includes Back to the left of Module Settings and a dedicated
 module Bypass on the right. The plugin URI and 58-port parameter contract are
@@ -11,12 +18,12 @@ unchanged from the private beta.5.
 
 ![Mala beta.6 touchscreen editor](docs/images/mala-beta6.png)
 
-## Install with a USB thumb drive
+### Install with a USB thumb drive
 
 No SSH, terminal, network connection, or SD-card removal is required for normal
 installation or rollback. Use a dedicated, single-partition FAT32 thumb drive.
 
-1. Download `mala-hector-0.1.0-beta.6-usb-install.zip` from this repository's Releases.
+1. Download `mala-hector-0.1.0-beta.6-usb-install.zip` from the [Mala beta.6 release](https://github.com/poly-hector/mala-module/releases/tag/v0.1.0-beta.6).
 2. Follow the [USB installation instructions](docs/USB-INSTALL.md): extract the
    kit directly onto the thumb drive, save your patch, and start Hector with it inserted.
 3. The kit checks compatibility, retains originals on Hector, applies Mala and
@@ -36,7 +43,7 @@ The initial public installer accepts **unmodified stock 407**. It refuses older
 private Mala installs, other community UI modifications, Beebo, and unknown files
 rather than overwriting them. See [compatibility and limitations](docs/KNOWN-LIMITATIONS.md).
 
-## Beta validation status
+### Beta.6 validation status
 
 The same ARM DSP binary has prior Hector use and ARM emulation evidence. The
 footer has been installed and physically confirmed by the owner on Hector.
